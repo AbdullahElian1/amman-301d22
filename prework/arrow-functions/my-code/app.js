@@ -154,6 +154,15 @@ let sumAndProduct = function(a, b) {
 console.log(sumAndProduct(3, 9));
 
 
+let sumAndProductNew = (a , b) => {
+  let sum = a + b;
+  let product = a * b;
+  return [sum, product];
+}
+
+console.log(sumAndProductNew(3,9));
+
+
 let message = function(name) {
   return `Hello, ${name}!`;
 };
